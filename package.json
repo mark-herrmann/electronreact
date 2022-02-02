@@ -34,7 +34,6 @@
     },
     "mac": {
       "category": "Education",
-      "iconUrl": "https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-256.png",
       "target": [
         "dmg",
         "pkg"
@@ -42,7 +41,6 @@
     },
     "linux": {
       "category": "Education",
-      "iconUrl": "https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-256.png",
       "target": [
         "deb",
         "freebsd",
@@ -55,9 +53,6 @@
         "Type": "Application",
         "GenericName": "Test Application (Proof of concept)"
       }
-    },
-    "dmg": {
-      "iconUrl": "https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-256.png"
     },
     "directories": {
       "buildResources": "public"
