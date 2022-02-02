@@ -1,12 +1,11 @@
 {
-  "name": "electron-with-create-react-app",
+  "name": "electronreact",
   "version": "0.1.0",
   "description": "Electron app powered by CRA",
   "author": "OSS Community",
   "private": true,
   "devDependencies": {
-    "electron": "^1.4.15",
-    "electron-builder": "^13.6.0",
+    "electron": "^17.0.0",
     "foreman": "^2.0.0",
     "react-scripts": "^0.9.0"
   },
@@ -28,8 +27,35 @@
     "postinstall": "install-app-deps"
   },
   "build": {
-    "appId": "com.electron.electron-with-create-react-app",
+    "appId": "de.markherrmann.electron.react",
     "win": {
+      "iconUrl": "https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-256.png"
+    },
+    "mac": {
+      "category": "Education",
+      "iconUrl": "https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-256.png",
+      "target": [
+        "dmg",
+        "pkg"
+      ]
+    },
+    "linux": {
+      "category": "Education",
+      "iconUrl": "https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-256.png",
+      "target": [
+        "deb",
+        "freebsd",
+        "rpm",
+        "AppImage",
+        "snap"
+      ],
+      "desktop": {
+        "Name": "Electron POCs",
+        "Type": "Application",
+        "GenericName": "Test Application (Proof of concept)"
+      }
+    },
+    "dmg": {
       "iconUrl": "https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-256.png"
     },
     "directories": {
