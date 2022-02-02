@@ -29,9 +29,6 @@
   },
   "build": {
     "appId": "de.markherrmann.electron.react",
-    "win": {
-      "iconUrl": "https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-256.png"
-    },
     "mac": {
       "category": "Education",
       "target": [
